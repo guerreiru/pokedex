@@ -1,0 +1,9 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pokedex básica feita com html, css, javascript",
+  "main": "index.html",
+  "author": "Fernando Guerreiro",
+  "license": "MIT",
+  "private": false
+}

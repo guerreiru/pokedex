@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/src/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/favicon-16x16.png">
+  <link rel="manifest" href="/src/assets/site.webmanifest">
+  <link rel="mask-icon" href="/src/assets/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./src/styles/styles.css">
+
+  <title>Pokédex</title>
+</head>
+
+<body>
+
+  <main>
+    <img src="#" alt="pokemon" class="pokemon_image">
+
+    <h1 class="pokemon_data">
+      <span class="pokemon_number"></span>
+      <span class="pokemon_name"></span>
+    </h1>
+
+    <form class="form">
+      <input type="search" class="input_search" placeholder="Nome ou número" required />
+    </form>
+
+    <div class="buttons">
+      <button class="button btn-prev">&lt; Anterior</button>
+      <button class="button btn-next">Próximo &gt;</button>
+    </div>
+
+    <img src="./src/assets/pokedex.png" alt="pokedex" class="pokedex">
+
+    <script src="./src/script/app.js"></script>
+  </main>
+
+</body>
+
+</html>
